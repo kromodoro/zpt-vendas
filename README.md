@@ -10,33 +10,7 @@ git clone https://github.com/kromodoro/zpt-vendas.git
 ```
 Após siga para a pasta 'zpt-vendas'
 ```
-cd zpt-vendas/
-```
-
-# descompacte o arquivo 'teste.zip'
-
-Acesse a pasta 'teste/laradock'
-```
-cd teste/laradock
-```
-
-Execute o docker compose
-```
-docker compose up -d nginx mysql phpmyadmin
-
-OU
-
-docker-compose up -d nginx mysql phpmyadmin
-```
-
-Assim que iniciar os containers acesse o 'workspace'
-```
-docker compose exec workspace bash
-```
-
-Após acessar o container siga para a pasta 'zpt/'
-```
-cd zpt
+cd zpt-vendas/zpt
 ```
 
 Execute o comando composer install
@@ -44,13 +18,26 @@ Execute o comando composer install
 composer install
 ```
 
+Após suba o servidor local
+```
+php artisan serve
+```
+
 # BANCO DE DADOS
+
+Os dados do banco devem ser definidos no arquivo **.env**
+
+Ex:
+```
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=default
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 
 Caso queira iniciar um banco de dados limpo, basta executar as migrations
 ```
 php artisan migrate
 ```
-
-Se preferir um banco de dados ja populado, o arquivo 'default.sql' pode ser importado pelo 'phpmyadmin'
-
-> OBS: as configurações do banco de dados estão em zpt/.env caso queira usar uma opção personalizada
