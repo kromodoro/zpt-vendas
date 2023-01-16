@@ -1,5 +1,7 @@
 # zpt-vendas
 
+__Visite a pasta [Escopo](https://github.com/kromodoro/zpt-vendas/tree/main/Escopo) para entender o processo de desenvolvimento do projeto__
+
 ## INSTALAÇÃO
 
 Abra o terminal e clone este repositório com o seguinte comando
