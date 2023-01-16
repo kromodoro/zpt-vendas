@@ -2,6 +2,9 @@
 
 **Nestas pastas são apresentadas de forma cronológica as etapas de construção do projeto**
 
+<hr>
+
+## Inicio do projeto 
 <details>
 	<summary>
 		<h3>2023-01-12</h3>
