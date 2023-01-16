@@ -11,7 +11,7 @@ Após siga para a pasta 'zpt-vendas'
 cd zpt-vendas/
 ```
 
-**descompacte o arquivo 'teste.zp'**
+# descompacte o arquivo 'teste.zip'
 
 Acesse a pasta 'teste/laradock'
 ```
