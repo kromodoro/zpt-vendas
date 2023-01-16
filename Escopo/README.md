@@ -1,6 +1,6 @@
 # Escopo
 
-**Nesta pastas é apresentada de forma cronológica as etapas de construção**
+**Nestas pastas são apresentadas de forma cronológica as etapas de construção do projeto**
 
 <details>
 	<summary>
