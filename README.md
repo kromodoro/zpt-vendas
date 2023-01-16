@@ -32,7 +32,7 @@ Assim que iniciar os containers acesse o 'workspace'
 docker compose exec workspace bash
 ```
 
-Siga para a pasta 'zpt/'
+Após acessar o container siga para a pasta 'zpt/'
 ```
 cd zpt
 ```
@@ -41,3 +41,14 @@ Execute o comando composer install
 ```
 composer install
 ```
+
+# BANCO DE DADOS
+
+Caso queira iniciar um banco de dados limpo, basta executar as migrations
+```
+php artisan migrate
+```
+
+Se preferir um banco de dados ja populado, o arquivo 'default.sql' pode ser importado pelo 'phpmyadmin'
+
+> OBS: as configurações do banco de dados estão em zpt/.env caso queira usar uma opção personalizada
